@@ -21,4 +21,5 @@
         android:layout_alignTop="@+id/name_label"
         android:layout_marginRight="12dp"
         android:text="TextView" />
+
 </RelativeLayout>
