@@ -43,12 +43,16 @@ public class Bulldog extends RealmObject {
     {
         name = "Generic Dog";
         age = "NULL";
+        image = null;
+        id = null;
     }
 
-     public Bulldog(String name, String age)
+     public Bulldog(String name, String age, String id)
     {
         this.name = name;
         this.age = age;
+        this.id = id;
+        image = null;
     }
 
     public String getId() {
